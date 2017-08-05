@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Zachary Neumann - The More you Know</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <main>
+    <div id="container">
+      <div id="info">
+        <h5>Your current location is:</h5>
+        <span id="location"></span><br><br>
+
+        <h5>The local weather is:</h5>
+        <span id="temp"></span><br><br>
+        <button id="convert" class = "btn btn-primary">Convert</button><br><br>
+        <h5>Search another location</h5>
+        <div class="form-group">
+          <form class="search">
+            <input type="text" class="form-control" id="query" placeholder="City, State"><br>
+            <button class = "btn btn-primary" type="submit">Go</button><br>
+          </form><br>
+          <p>Writen and coded by <a href="http://www.zacharyneumann.com" target="_blank"><br>Zachary Neumann</a></p>
+        </div>
+      </div>
+
+      <!-- have search bar that enters value at the end of this URL https://openweathermap.org/find?q=portland
+      replace portland with search string -->
+
+      <div id="bg">
+        <span id="image"></span>
+      </div>
+
+    </div>
+  </main>
+</html>
