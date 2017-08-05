@@ -1,10 +1,9 @@
-OpeanWeatherMap API call and search.
+OpeanWeatherMap API call and search
+======
 
-https://openweathermap.org/api
+See OpeanWeatherMap API [here](https://openweathermap.org/api
+)
 
 Download, open index.
 
-See it live:
-https://codepen.io/zneu/full/BRzPKP/
-
-Note: codepen sometimes doesn't load the API. Tested and working when using a browser.
+[See it live](http://www.zacharyneumann.com/weather)
